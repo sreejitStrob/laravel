@@ -1,6 +1,70 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/laravel/compare/v9.3.8...9.x)
+## [Unreleased](https://github.com/laravel/laravel/compare/v9.5.2...9.x)
+
+## [v9.5.2](https://github.com/laravel/laravel/compare/v9.5.1...v9.5.2) - 2023-01-31
+
+### Changed
+
+- Adds "missing" validation rule translations by @timacdonald in https://github.com/laravel/laravel/pull/6078
+
+## [v9.5.1](https://github.com/laravel/laravel/compare/v9.5.0...v9.5.1) - 2023-01-11
+
+### Changed
+
+- Use minimum stability "stable" by @taylorotwell in https://github.com/laravel/laravel/commit/c1092ec084bb294a61b0f1c2149fddd662f1fc55
+
+## [v9.5.0](https://github.com/laravel/laravel/compare/v9.4.1...v9.5.0) - 2023-01-02
+
+### Changed
+
+- Update to Heroicons v2 by @driesvints in https://github.com/laravel/laravel/pull/6051
+- Support pusher-js v8.0 by @balu-lt in https://github.com/laravel/laravel/pull/6059
+- Switch password reset email to a primary key by @browner12 in https://github.com/laravel/laravel/pull/6064
+
+## [v9.4.1](https://github.com/laravel/laravel/compare/v9.4.0...v9.4.1) - 2022-12-19
+
+### Changed
+
+- Add decimal translation by @taylorotwell in https://github.com/laravel/laravel/commit/39f4830e92a7467b2a7fe6bc23d0ec14bc3b46a6
+
+## [v9.4.0](https://github.com/laravel/laravel/compare/v9.3.12...v9.4.0) - 2022-12-15
+
+### Added
+
+- Vite 4 support by @timacdonald in https://github.com/laravel/laravel/pull/6043
+
+### Changed
+
+- Add ulid and ascii validation message by @nshiro in https://github.com/laravel/laravel/pull/6046
+
+## [v9.3.12](https://github.com/laravel/laravel/compare/v9.3.11...v9.3.12) - 2022-11-22
+
+### Changed
+
+- Bump vite plugin version by @timacdonald in https://github.com/laravel/laravel/pull/6038
+
+## [v9.3.11](https://github.com/laravel/laravel/compare/v9.3.10...v9.3.11) - 2022-11-14
+
+### Changed
+
+- Adds lowercase validation rule translation by @timacdonald in https://github.com/laravel/laravel/pull/6028
+- Adds uppercase validation rule translation by @michaelnabil230 in https://github.com/laravel/laravel/pull/6029
+
+## [v9.3.10](https://github.com/laravel/laravel/compare/v9.3.9...v9.3.10) - 2022-10-28
+
+### Changed
+
+- Changing .env to make Pusher work without editing the commented out part in the bootstrap.js by @cveldman in https://github.com/laravel/laravel/pull/6021
+
+## [v9.3.9](https://github.com/laravel/laravel/compare/v9.3.8...v9.3.9) - 2022-10-17
+
+### Changed
+
+- Update welcome page colours by @timacdonald in https://github.com/laravel/laravel/pull/6002
+- Ignore .env.production by @yasapurnama in https://github.com/laravel/laravel/pull/6004
+- Upgrade axios to v1.x by @ankurk91 in https://github.com/laravel/laravel/pull/6008
+- Shorten pusher host config by @buihanh2304 in https://github.com/laravel/laravel/pull/6009
 
 ## [v9.3.8](https://github.com/laravel/laravel/compare/v9.3.7...v9.3.8) - 2022-09-20
 
